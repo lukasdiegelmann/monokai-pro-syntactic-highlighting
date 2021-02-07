@@ -1,25 +1,43 @@
 {
-    "name": "monokai-pro-syntactic-highlighting",
-    "displayName": "monokai-pro-syntactic-highlighting",
+    "name": "oasis-vscode-theme",
+    "displayName": "Oasis Theme",
     "description": "Monokai Pro with syntactic highlighting enabled.",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "oasislaboratory",
     "author": {
         "name": "lukasdiegelmann",
         "email": "lukasdiegelmann.business@gmail.com"
     },
-    "icon": "./icon.jpg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lukasdiegelmann/oasis-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/lukasdiegelmann/oasis-vscode-theme/issues"
+    },
+    "icon": "images/icon.jpg",
     "engines": {
         "vscode": "^1.53.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "oasislaboratory",
+        "dark theme",
+        "monokai",
+        "monokai pro"
+    ],
+    "galleryBanner": {
+        "color": "#171719",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "monokai-pro-syntactic-highlighting",
+                "label": "Oasis Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/monokai-pro-syntactic-highlighting.json"
+                "path": "./themes/oasis-vscode-theme.json"
             }
         ]
     }

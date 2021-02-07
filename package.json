@@ -1,0 +1,26 @@
+{
+    "name": "monokai-pro-syntactic-highlighting",
+    "displayName": "monokai-pro-syntactic-highlighting",
+    "description": "Monokai Pro with syntactic highlighting enabled.",
+    "version": "0.0.1",
+    "author": {
+        "name": "lukasdiegelmann",
+        "email": "lukasdiegelmann.business@gmail.com"
+    },
+    "icon": "./icon.jpg",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "monokai-pro-syntactic-highlighting",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-pro-syntactic-highlighting.json"
+            }
+        ]
+    }
+}
